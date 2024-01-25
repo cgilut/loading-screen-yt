@@ -12,7 +12,7 @@ body {
     min-height: 100vh;
     background: url(assets/6213932.jpg) no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position-y: -50px;
 }
 
 header {
@@ -21,8 +21,8 @@ header {
     left: 0;
     width: 100%;
     padding: 20px 100px;
-    /* backdrop-filter: blur(10px); */
-    /* border: 2px solid rgba(255, 255, 255, .5); */
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(255, 255, 255, .5);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -94,8 +94,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: -100px;
-    /* overflow: hidden; */
+    overflow: hidden;
     transition: height 200ms ease;
 }
 
